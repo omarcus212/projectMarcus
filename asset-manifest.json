@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/omarcus212.github.oi/projectMarcus/static/css/main.fb8d4303.css",
+    "main.js": "/omarcus212.github.oi/projectMarcus/static/js/main.894c5a9d.js",
+    "static/js/787.0abfdb1b.chunk.js": "/omarcus212.github.oi/projectMarcus/static/js/787.0abfdb1b.chunk.js",
+    "index.html": "/omarcus212.github.oi/projectMarcus/index.html",
+    "main.fb8d4303.css.map": "/omarcus212.github.oi/projectMarcus/static/css/main.fb8d4303.css.map",
+    "main.894c5a9d.js.map": "/omarcus212.github.oi/projectMarcus/static/js/main.894c5a9d.js.map",
+    "787.0abfdb1b.chunk.js.map": "/omarcus212.github.oi/projectMarcus/static/js/787.0abfdb1b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb8d4303.css",
+    "static/js/main.894c5a9d.js"
+  ]
+}
