@@ -38,7 +38,7 @@ const Home = () => {
             {
                 users.map((user) => {
                     return (
-                        <Card nome={user.nome} Email={user.email} Sexo={user.sexo} idade={user.idade} Servico={user.servico} Data_ini={user.data_ini} Data_fin={user.data_fin} ativo={user.ativo} icon={user.servico} />
+                        <Card nome={user.nome} Email={user.email} Sexo={user.sexo} idade={user.idade} Servico={user.servico} Data_ini={user.dataAdmissao} Data_fin={user.datasaida} ativo={user.ativo} icon={user.servico} />
                     )
                 })
             }
