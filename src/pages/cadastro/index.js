@@ -22,7 +22,7 @@ const Cadastro = () => {
     email: '',
     idade: '',
     dataAdmissao: '',
-    datasaida: '',
+    datasaida: '00-00-0000',
     sexo: '',
     servico: '',
     ativo: ''
