@@ -29,7 +29,7 @@ const Home = () => {
 
 
 
-
+    console.clear();
     return (
         <div id='Home'>
             <Navbar text={'Lista'} />

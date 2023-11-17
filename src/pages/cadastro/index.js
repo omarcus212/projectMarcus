@@ -99,9 +99,7 @@ const Cadastro = () => {
 
   }, [usersResgister])
 
-console.log(usersResgister)
-console.log(ativo)
-
+  console.clear();
   return (
     <div id='Cadastro'>
       <Navbar />
