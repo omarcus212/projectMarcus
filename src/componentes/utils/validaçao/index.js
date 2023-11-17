@@ -5,3 +5,11 @@ export const isValidEmail = (email) => {
     return regexEmail.test(email)
 }
 
+
+
+export const isValiidade= (Idade) => {
+    const regexidade = /([0-9]{2})/
+    return regexidade.test(Idade)
+}
+
+

@@ -7,7 +7,7 @@ import Select from '../../componentes/utils/select';
 import db from "../../firebase/firebase_config";
 import { collection, addDoc, getDocs, updateDoc, deleteDoc, doc, setDoc } from "firebase/firestore";
 import { useEffect, useState } from 'react';
-import { isValidEmail } from '../../style/componentes/utils/validaçao';
+import { isValidEmail, isValiidade } from '../../componentes/utils/validaçao';
 
 
 
@@ -46,7 +46,7 @@ const Cadastro = () => {
       validate = false
 
     }
-    if(!usersResgister.idade){
+    if(!isValiidade(usersResgister.idade)){
       seterro(true);
       validate = false
 
