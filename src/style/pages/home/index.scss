@@ -1,0 +1,16 @@
+#Home{
+   display: flex;
+   height: initial;
+   width: auto;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 50px;
+   padding-bottom: 50px;
+
+  .ButtonSpan{
+    position: absolute;
+    top: 90%;
+    left: 85%;
+  }
+ }

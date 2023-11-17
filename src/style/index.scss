@@ -1,0 +1,34 @@
+@import "./vars.scss";
+
+
+
+// Project global stylizations
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+    overflow-x: hidden; 
+}
+
+
+
+
+ // Pages
+@import "./pages/cadastro/index.scss";
+@import "./pages/home/index.scss";
+
+
+// Components
+@import "./componentes/modal/index.scss";
+@import "./componentes/navbar/index.scss";
+@import "./componentes/bartitle/index.scss";
+@import "./componentes/utils/inputText/index.scss";
+@import "./componentes/utils/card/index.scss";
+@import "./componentes/utils/button/index.scss";
+@import "./componentes/utils/select/index.scss";

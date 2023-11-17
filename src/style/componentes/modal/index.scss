@@ -1,0 +1,48 @@
+#container-Modal {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+
+
+
+  span {
+    width: 100%;
+  }
+
+
+
+  .container-cadastro {
+    display: flex;
+    width: 60%;
+    height: 95%;
+
+    border: $color-blue 3px solid;
+    flex-direction: column;
+
+    .pr-div-input {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: 100%;
+      height: 70%;
+      padding-top: 20px;
+      
+    }
+
+    .pr-div-input .container-input{
+      display: flex;
+      width: 90%;
+      justify-content: start;
+      align-items: start;
+      padding-left: 30px;
+
+      height: 50%;
+    }
+
+  }
+
+
+}

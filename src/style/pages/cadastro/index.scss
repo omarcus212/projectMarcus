@@ -1,0 +1,66 @@
+#Cadastro {
+  display: flex;
+  height: inherit;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  padding-bottom: 50px;
+
+
+  .container-cadastro {
+    display: flex;
+    width: 55%;
+    height: 1000px;
+    border: $color-blue 8px solid;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+
+
+
+  }
+
+
+  .container-input-cadastro {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 40px;
+    flex-direction: column;
+    gap: 50px;
+
+
+    .container-inputtxt-radio{
+      display: flex;
+      width: 100%;
+      gap: 20px;
+    }
+
+    .container-inputtxt-radio :nth-child(2){
+      width: 56%;
+      font: 0.8em sans-serif;
+      
+    }
+
+  }
+
+  .container-input-cadastro :nth-last-child(7) {
+    width: 100%;
+    font: 2.7em sans-serif;
+
+
+  }
+
+  .container-input-cadastro .container-input :nth-child(2) {
+    height: 55px;
+  }
+
+  .container-input-cadastro .container-input :nth-last-child(1) {
+
+    margin-left: 20px;
+
+  }
+
+}
