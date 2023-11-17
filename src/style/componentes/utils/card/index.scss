@@ -90,7 +90,7 @@
             height: 20px;
             justify-content: start;
             align-items: center;
-            gap: 20px;
+            gap: 15px;
 
 
             font: 1em sans-serif;
@@ -107,6 +107,11 @@
             }
 
         }
+        }
+
+        .container-Card-txt_pt2 .spantext :nth-last-child(1){
+           
+            width: 120px;
         }
 
       .container-Card_icon{
